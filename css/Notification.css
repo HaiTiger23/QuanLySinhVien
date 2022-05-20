@@ -1,0 +1,11 @@
+.ThongBao {
+    position:fixed !important;
+    top: 10px;
+    animation: MoveIn 3s linear forwards;
+}
+@keyframes MoveIn {
+    0% {left: -300px;}
+    25% {left: 0;}
+    75% {left: 0;}
+    100% {left:-300px;}
+}
